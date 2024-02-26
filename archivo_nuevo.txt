@@ -1,0 +1,7 @@
+Nombre del dispositivo	LAPTOP-PI52B8AB
+Procesador	Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz   2.50 GHz
+RAM instalada	16.0 GB (15.8 GB utilizable)
+Id. del dispositivo	8844A2BA-577D-4B71-98E4-DCA91A508B62
+Id. del producto	00342-41441-78636-AAOEM
+Tipo de sistema	Sistema operativo de 64 bits, procesador x64
+Lápiz y entrada táctil	La entrada táctil o manuscrita no está disponible para esta pantalla

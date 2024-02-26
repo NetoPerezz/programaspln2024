@@ -1,0 +1,1 @@
+open= "C:\\Users\\Epere\\Desktop\\Geometry Dash.url"

@@ -1,0 +1,11 @@
+archivo_abierto=open ("C:\\Users\\ErnestoPerez\\OneDrive\\Documentos\\documento3.txt", "w")
+archivo_abierto.write("Esto se escribe en el archivo\n")
+archivo_abierto.write("Esto tambien\n")
+archivo_abierto.write("Mira, puedo escribir \"comillas\"\n")
+archivo_abierto.write("Gracias a la diagonal invertidas \n")
+archivo_abierto.close()
+
+archivo_abierto=open ("C:\\Users\\ErnestoPerez\\OneDrive\\Documentos\\documento3.txt")
+texto=archivo_abierto.read()
+print(texto)
+archivo_abierto.close()

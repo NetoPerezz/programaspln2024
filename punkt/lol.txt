@@ -1,0 +1,56 @@
+Servicio SSH (Secure Shell)
+
+¿En qué consiste? SSH (Secure Shell) es un protocolo de red que permite la comunicación segura entre dos sistemas, generalmente un cliente y un servidor. Proporciona una conexión cifrada para la ejecución segura de comandos en un servidor remoto.
+Características importantes:
+Autenticación segura: Los usuarios deben autenticarse antes de acceder al sistema.
+Cifrado de datos: La información transmitida entre el cliente y el servidor está cifrada, protegiendo contra posibles interceptaciones.
+Ejecución remota de comandos: Permite a los usuarios ejecutar comandos en un servidor remoto de manera segura.
+2. Hardware de servidor:
+
+Tipos de hardware: Variedad de procesadores (Intel, AMD), memoria RAM de alta capacidad, almacenamiento que puede incluir discos duros tradicionales (HDDs) para capacidad o unidades de estado sólido (SSDs) para rendimiento, tarjetas de red para conectividad.
+3. Sistemas operativos de servidor:
+
+Principales sistemas operativos: Windows Server, Linux (Ubuntu Server, CentOS, Red Hat Enterprise Linux), Unix.
+Características y diferencias: Windows Server es común en entornos empresariales, Linux es conocido por su estabilidad y preferido en servidores web. Varían en costos, licenciamiento y funcionalidades.
+4. Virtualización y contenedores:
+
+Tecnologías de virtualización: VMware vSphere, Microsoft Hyper-V, KVM.
+Contenedores: Docker, Kubernetes.
+Ventajas y desventajas: La virtualización ofrece mayor aislamiento y flexibilidad, pero puede ser más pesada. Los contenedores son ligeros y rápidos, pero ofrecen menos aislamiento.
+5. Interconexión y configuración de red:
+
+Configuración de red: Incluye protocolos como TCP/IP, DNS, DHCP, enrutamiento, conmutación, VLANs, VPNs.
+Seguridad de redes: Firewalls, detección de intrusos, VPNs para proteger la conectividad y asegurar la transmisión de datos.
+6. Almacenamiento:
+
+Tecnologías de almacenamiento: Sistemas de archivos, RAID para redundancia y rendimiento, NAS para almacenamiento compartido en red, SAN para redes de almacenamiento dedicadas.
+Estrategias de copias de seguridad: Programadas y probadas regularmente para garantizar la recuperación ante desastres.
+7. Seguridad de servidores:
+
+Principios básicos: Gestión de identidades y accesos, cifrado de datos, configuración de firewalls, detección de intrusos, parcheo de seguridad.
+Amenazas comunes: Ataques de fuerza bruta, malware, vulnerabilidades de software.
+Mejores prácticas: Actualizaciones regulares, auditorías de seguridad, monitoreo constante para detectar y mitigar posibles amenazas.
+
+TeamViewer y su Uso en SSH:
+
+TeamViewer es una herramienta de escritorio remoto que permite a los usuarios acceder y controlar sistemas de forma remota. Aunque TeamViewer no utiliza directamente el protocolo SSH, es una herramienta popular para acceder a sistemas de manera remota, especialmente en entornos donde la configuración de SSH puede no ser práctica o no esté disponible.
+
+Características de TeamViewer:
+
+Acceso Remoto: Permite acceder a una computadora de manera remota desde cualquier ubicación.
+Transferencia de Archivos: Facilita la transferencia de archivos entre la computadora local y la remota.
+Colaboración en Línea: Permite a varios usuarios ver y controlar la misma computadora, facilitando la colaboración en línea.
+Conferencias y Reuniones: Ofrece funciones para realizar reuniones virtuales y presentaciones en línea.
+Compatibilidad Plataforma Cruzada: TeamViewer está disponible para diversas plataformas, como Windows, macOS, Linux, Android e iOS.
+Integración con SSH:
+
+Si bien TeamViewer no utiliza SSH directamente, puede integrarse con sistemas que tengan configurado SSH para un acceso seguro.
+En situaciones donde el acceso directo mediante SSH no es posible o práctico, TeamViewer proporciona una alternativa sencilla para controlar y administrar sistemas de forma remota.
+Consideraciones de Seguridad:
+
+Aunque TeamViewer utiliza su propio conjunto de protocolos de seguridad, se debe tener precaución al configurar y utilizar cualquier herramienta de acceso remoto.
+En entornos empresariales, es esencial seguir las mejores prácticas de seguridad y autenticación.
+Escenarios de Uso:
+
+Soporte Técnico Remoto: TeamViewer es ampliamente utilizado para brindar soporte técnico remoto, permitiendo a los profesionales acceder a las computadoras de los usuarios para resolver problemas.
+Administración de Servidores: Puede ser utilizado para administrar servidores de manera remota, facilitando la gestión de sistemas sin estar físicamente presentes.

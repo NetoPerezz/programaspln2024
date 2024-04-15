@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-
 def obtener_texto(url):
     response = requests.get(url)
     if response.status_code == 200:
@@ -13,17 +12,18 @@ def obtener_texto(url):
         print("Error al obtener la página:", response.status_code)
         return None
 
-url = 'https://cnnespanol.cnn.com/2024/04/13/rodolfo-fofo-marquez-juicio-intento-feminicidio-mexico-orix/'
+def contar_palabra_en_texto(texto, palabra):
+    palabras = re.findall(r'\b\w+\b', texto.lower())
+    conteo = palabras.count(palabra.lower())
+    return conteo
 
+url = input("Introduce la URL de la página web: ")
+palabra_buscar = input("Introduce la palabra que deseas buscar: ")
 
 texto_pagina = obtener_texto(url)
 
 if texto_pagina:
-    # Convertir el texto a minúsculas y dividirlo en palabras
-    palabras = re.findall(r'\b\w+\b', texto_pagina.lower())
-    
-    conteo_fofo = palabras.count('fofo')
-    
-    print("La palabra 'fofo' aparece", conteo_fofo, "veces en el texto.")
+    conteo_palabra = contar_palabra_en_texto(texto_pagina, palabra_buscar)
+    print(f"La palabra '{palabra_buscar}' aparece {conteo_palabra} veces en el texto.")
 else:
     print("No se pudo obtener el texto de la página.")
